@@ -1,0 +1,76 @@
+1. What is infrastructure as a Service(IaaS) and how does it work?
+
+IaaS is a type of cloud computing service that offers essential compute, storage and networking resources on
+on demand.
+
+IaaS allows you to access compute storage and networking, servers and virtuisation via internet from 3rd party provider in order to 
+create IT environment that best fits your environment
+IaaS refers to pool of physical or virtual infrastructure that cloud provider will deliver to customer.includes storage and networking, servers
+also include the management of the infrastructure but can also include other services as  IP address, n/w connections, load balancers, 
+billing management, access management, storage resiliency, backup relication. These resources allow users to install OS, deploy databases
+create storagea and install workloads as they require
+IaaS work on Pay-as-you-go model, hourly , weekly, monthly/ yearly 
+
+Benifits
+cost effective
+high degree of control over resources
+scalable capacity to meet changing demand
+access services from anywhere
+secure DC
+redunant and resilient - no single point of failure
+24/7/365 availaibilty
+
+2. Mention how critical the private cloud delivery model is.
+Private cloud is a computing model that offers a proprietary environment dedicated to a single business entity. 
+As with other types of cloud computing environments, private cloud provides extended, virtualized computing resources 
+via physical components stored on-premises or at a vendor's datacenter.
+
+for having in-house private clouds the organization needs to invest heavily in running and maintaining the infrastructure 
+which can result in significant capital expenditure.
+Vendor lock-in: This can be a major impediment in private cloud adoption especially when the hardware and infrastructure is outsourced.
+This is a service delivery technique where the client company is forced to continue with the same service provider,
+thus preventing the client to migrate to another vendor
+
+3. Demonstrate how to use the MS Azure migrate wizard
+Azure Database Migration Service is a tool that helps you simplify, guide and automate your database migration to Azure. 
+Easily migrate your data, schema and objects from multiple sources to the cloud at scale.
+
+fully managed service designed to enable seamless migrations from multiple database sources to Azure data platforms with minimal downtime
+Azure Database Migration Service integrates some of the functionality of our existing tools and services. 
+It provides customers with a comprehensive, highly available solution. 
+
+The service uses the Data Migration Assistant to generate assessment reports that provide recommendations to guide you through 
+the changes required prior to performing a migration. It's up to you to perform any remediation required.
+When you're ready to begin the migration process, Azure Database Migration Service performs all of the required steps 
+
+The Data Migration Assistant (DMA) helps you upgrade to a modern data platform by detecting compatibility issues 
+that can impact database functionality in your new version of SQL Server or Azure SQL Database. 
+DMA recommends performance and reliability improvements for your target environment and 
+allows you to move your schema, data, and uncontained objects from your source server to your target server
+
+4. Describe Microsoft Azure SQL as a SaaS.
+With SaaS you merely can configure (user options of) the product and everything else is managed by the cloud provider.
+ On PaaS you can configure High Availability, Disaster Recovery, and configure options for Business Continuity, 
+ and you cannot set all this on SaaS. With SaaS you may not be able to configure options to make the product more 
+ scalable in terms of performance, as you can configure on PaaS,
+ We can argue that Azure SQL Database offers more than other PaaS databases offer, and because of that we should think of it as SaaS. 
+ However, Azure SQL offers a good amount of management options that are not available on SaaS.
+Another thing to take in consideration is that the security of the data on Azure SQL Database is not at responsibility of Microsoft as service provider
+Software-as-a-Service (SaaS) allows users to connect to and use cloud-based applications over the Internet. Common examples are email, calendaring and office tools (such as Microsoft Office 365.
+
+5. Explain what a hybrid cloud is and why it's important.
+is a computing environment that combines an on-premises datacenter (also called a private cloud) with a public cloud,
+ allowing data and applications to be shared between them.
+ Some people define hybrid cloud to include “multicloud” configurations where an organization uses more than one public cloud
+ in addition to their on-premises datacenter.
+ 
+6.What is serverless computing, and how does it work?
+ With serverless computing, you don’t have to know anything about the hardware or OS your code runs on, 
+ as it’s all taken care of for you by a service provider.
+ Serverless computing is an execution model for the cloud in which a cloud provider dynamically allocates—and then
+ charges the user for—only the compute resources and storage needed to execute a particular piece of code. 
+ Naturally, there are still servers involved, but their provisioning and maintenance are entirely taken care of by the provider.
+
+
+ 
+
